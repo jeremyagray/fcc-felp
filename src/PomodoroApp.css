@@ -1,0 +1,214 @@
+body
+{
+}
+
+div#root
+{
+    background: #ff4444;
+}
+
+p
+{
+    margin: 0px 0px 0px 0px;
+}
+
+div#pomodoroAppContainer
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+div#pomodoroAppControls
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+div.pomodoroAppBreakContainer
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    /* color: #ff4444; */
+    /* background: #ffffff; */
+    background: #ff4444;
+    color: #ffffff;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+}
+
+div#pomodoroAppBreakTime
+{
+    /* border: 4px solid #ffffff; */
+    border: 4px solid #ff4444;
+    border-radius: 10px;
+    color: #ff4444;
+    background: #ffffff;
+    /* background: #ff4444; */
+    /* color: #ffffff; */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+div.pomodoroAppBreakControls
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    /* color: #ff4444; */
+    /* background: #ffffff; */
+    background: #ff4444;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.pomodoroAppBreakControlsButton
+{
+    /* border: 4px solid #ffffff; */
+    border: 4px solid #ff4444;
+    border-radius: 10px;
+    color: #ff4444;
+    background: #ffffff;
+    /* background: #ff4444; */
+    /* color: #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+div.pomodoroAppSessionContainer
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    /* color: #ff4444; */
+    /* background: #ffffff; */
+    background: #ff4444;
+    color: #ffffff;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+}
+
+div#pomodoroAppSessionTime
+{
+    /* border: 4px solid #ffffff; */
+    border: 4px solid #ff4444;
+    border-radius: 10px;
+    color: #ff4444;
+    background: #ffffff;
+    /* background: #ff4444; */
+    /* color: #ffffff; */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+div.pomodoroAppSessionControls
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    /* color: #ff4444; */
+    /* background: #ffffff; */
+    background: #ff4444;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.pomodoroAppSessionControlsButton
+{
+    /* border: 4px solid #ffffff; */
+    border: 4px solid #ff4444;
+    border-radius: 10px;
+    color: #ff4444;
+    background: #ffffff;
+    /* background: #ff4444; */
+    /* color: #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+div#pomodoroAppDisplay
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.pomodoroAppTime
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    font-size: 2em;
+    /* color: #ff4444; */
+    /* background: #ffffff; */
+    background: #ff4444;
+    color: #ffffff;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
+div.pomodoroAppTimeDisplay
+{
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    /* font-size: 2em; */
+    color: #ff4444;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.pomodoroAppTimeControls
+{
+    /* border: 4px solid #ffffff; */
+    /* border-radius: 10px; */
+    /* color: #ff4444; */
+    /* background: #ffffff; */
+    background: #ff4444;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.pomodoroAppTimeControlsButton
+{
+    /* border: 4px solid #ffffff; */
+    border: 4px solid #ff4444;
+    border-radius: 10px;
+    color: #ff4444;
+    background: #ffffff;
+    /* background: #ff4444; */
+    /* color: #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
