@@ -1,0 +1,89 @@
+p.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vw;
+}
+
+div
+{
+    border: 2px solid black;
+    text-align: center;
+}
+
+div#drumMachineDrumsContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#drum-machine
+{
+    /* width: 95%; */
+    /* width: auto; */
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-template-rows: 10vw 10vw 10vw 10vw;
+}
+
+div#display
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / 4;
+}
+
+div.drum-pad
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.drum-pad#Q
+{
+    grid-column: 1 / 2;
+}
+
+div.drum-pad#W
+{
+    grid-column: 2 / 3;
+}
+
+div.drum-pad#E
+{
+    grid-column: 3 / 4;
+}
+
+div.drum-pad#A
+{
+    grid-column: 1 / 2;
+}
+
+div.drum-pad#S
+{
+    grid-column: 2 / 3;
+}
+
+div.drum-pad#D
+{
+    grid-column: 3 / 4;
+}
+
+div.drum-pad#Z
+{
+    grid-column: 1 / 2;
+}
+
+div.drum-pad#X
+{
+    grid-column: 2 / 3;
+}
+
+div.drum-pad#C
+{
+    grid-column: 3 / 4;
+}
