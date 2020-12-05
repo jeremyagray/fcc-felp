@@ -1,0 +1,53 @@
+#quoteMachine
+{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text
+{
+  font-size: 2em;
+  text-align: left;
+}
+
+#author
+{
+  font-size: 1em;
+  text-align: right;
+}
+
+#controls
+{
+  font-size: 1.2em;
+}
+
+div#controls button
+{
+  color: #ffffff;
+  background-color: #005900;
+}
+
+div#controls a
+{
+  color: #ffffff;
+  background-color: #005900;
+}
+
+#new-quote
+{
+  margin-right: 5px;
+}
+
+#tweet-quote
+{
+  margin-left: 5px;
+  padding: 0.30em;
+}
+
+#buttons
+{
+  display: flex;
+  justify-content: center;
+}
