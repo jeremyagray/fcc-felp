@@ -1,0 +1,62 @@
+div
+{
+    /* border: 2px solid black; */
+}
+
+div.markdownApp#markdownAppContainer
+{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.markdownApp#markdownEditorForm
+{
+    /* border: 2px solid black; */
+}
+
+div.markdownApp#markdownEditorTitleContainer
+{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+
+div.markdownApp#markdownPreviewerTitleContainer
+{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    /* height: 20%; */
+    /* background-color: magenta; */
+}
+
+div#markdownEditorFormContainer
+{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+
+div.markdownApp#markdownPreviewerContainer
+{
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* align-items: center; */
+    height: 80%;
+}
+
+div.markdownApp#preview
+{
+    /* border: 2px solid black; */
+}
+
+textarea#editor
+{
+    /* background-color: magenta; */
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
