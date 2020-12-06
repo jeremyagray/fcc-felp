@@ -3,7 +3,7 @@ import './CalculatorApp.css';
 
 const digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 const opNames = ['add', 'subtract', 'multiply', 'divide', 'equals'];
-const opSymbolsRE = /\+-\*\//;
+
 const digitToNum = {
   zero: '0',
   one: '1',
@@ -16,6 +16,7 @@ const digitToNum = {
   eight: '8',
   nine: '9'
 };
+
 const nameToSymbol = {
   'add': '+',
   'subtract': '-',

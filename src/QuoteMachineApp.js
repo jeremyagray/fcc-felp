@@ -1,5 +1,8 @@
+import React from 'react';
+import './QuoteMachineApp.css';
+
 const quotes = [
-  {text: "Oops.", author: "John Dow"},
+  {text: "Oops.", author: "John Doe"},
   {text: "My bad, yo.", author: "Rory Smith"},
   {text: "I did that.", author: "Steve Urkel"},
   {text: "I can smell what the Rock is cooking.", author: "Steve Austin"},
@@ -7,9 +10,7 @@ const quotes = [
   {text: "Say again?", author: "Dr Who"},
 ];
 
-const defaultState = {index: Math.floor(Math.random() * quotes.length)};
-
-class QuoteMachine extends React.Component
+class QuoteMachineApp extends React.Component
 {
   constructor(props)
   {
@@ -53,4 +54,4 @@ class QuoteMachine extends React.Component
   }
 }
 
-ReactDOM.render(<QuoteMachine/>, document.getElementById("quoteMachine"));
+export default QuoteMachineApp;
